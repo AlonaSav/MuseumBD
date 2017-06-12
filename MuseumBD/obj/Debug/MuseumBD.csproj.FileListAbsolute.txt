@@ -1,0 +1,8 @@
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\bin\Debug\MuseumBD.exe
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\bin\Debug\MuseumBD.pdb
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\obj\Debug\MuseumBD.Properties.Resources.resources
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\obj\Debug\MuseumBD.csproj.GenerateResource.Cache
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\obj\Debug\MuseumBD.exe
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\obj\Debug\MuseumBD.pdb
+C:\Users\ADM\Documents\Visual Studio 2008\Projects\MuseumBD\MuseumBD\obj\Debug\MuseumBD.Form1.resources
