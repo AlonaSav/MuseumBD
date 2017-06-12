@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -53,6 +53,46 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(216, 606);
             this.panel1.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.Location = new System.Drawing.Point(3, 562);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(210, 30);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Адміністратор";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.Location = new System.Drawing.Point(3, 111);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(210, 30);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Студенти";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.Location = new System.Drawing.Point(3, 75);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(210, 30);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Викладачі";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(3, 39);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(210, 30);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Статті";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -74,52 +114,13 @@
             this.panel2.Size = new System.Drawing.Size(676, 605);
             this.panel2.TabIndex = 1;
             // 
-            // button2
+            // webBrowser1
             // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(3, 39);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 30);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Статті";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(3, 75);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(210, 30);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Викладачі";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(3, 111);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(210, 30);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Студенти";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(3, 562);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(210, 30);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Адміністратор";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(2, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(590, 20);
-            this.textBox1.TabIndex = 0;
+            this.webBrowser1.Location = new System.Drawing.Point(3, 29);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(670, 566);
+            this.webBrowser1.TabIndex = 2;
             // 
             // button6
             // 
@@ -130,13 +131,13 @@
             this.button6.Text = "Пошук";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // webBrowser1
+            // textBox1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(3, 29);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(670, 566);
-            this.webBrowser1.TabIndex = 2;
+            this.textBox1.Location = new System.Drawing.Point(2, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(590, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Введіть пошуковий запит";
             // 
             // Form1
             // 
