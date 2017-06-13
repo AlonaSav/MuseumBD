@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace MuseumBD
 {
@@ -16,6 +17,8 @@ namespace MuseumBD
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            string databaseName = @"MuseumBD.db";
+            SQLiteConnection.CreateFile(databaseName);
         }
     }
 }

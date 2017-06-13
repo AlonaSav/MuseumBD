@@ -29,86 +29,86 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bAdmin = new System.Windows.Forms.Button();
+            this.bStudents = new System.Windows.Forms.Button();
+            this.bTeachers = new System.Windows.Forms.Button();
+            this.bArticles = new System.Windows.Forms.Button();
+            this.bMain = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bSearch = new System.Windows.Forms.Button();
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.bAdmin);
+            this.panel1.Controls.Add(this.bStudents);
+            this.panel1.Controls.Add(this.bTeachers);
+            this.panel1.Controls.Add(this.bArticles);
+            this.panel1.Controls.Add(this.bMain);
             this.panel1.Location = new System.Drawing.Point(-1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(216, 606);
             this.panel1.TabIndex = 0;
             // 
-            // button5
+            // bAdmin
             // 
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(3, 562);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(210, 30);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Адміністратор";
-            this.button5.UseVisualStyleBackColor = true;
+            this.bAdmin.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bAdmin.Location = new System.Drawing.Point(3, 562);
+            this.bAdmin.Name = "bAdmin";
+            this.bAdmin.Size = new System.Drawing.Size(210, 30);
+            this.bAdmin.TabIndex = 4;
+            this.bAdmin.Text = "Адміністратор";
+            this.bAdmin.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // bStudents
             // 
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(3, 111);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(210, 30);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Студенти";
-            this.button4.UseVisualStyleBackColor = true;
+            this.bStudents.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bStudents.Location = new System.Drawing.Point(3, 111);
+            this.bStudents.Name = "bStudents";
+            this.bStudents.Size = new System.Drawing.Size(210, 30);
+            this.bStudents.TabIndex = 3;
+            this.bStudents.Text = "Студенти";
+            this.bStudents.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // bTeachers
             // 
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(3, 75);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(210, 30);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Викладачі";
-            this.button3.UseVisualStyleBackColor = true;
+            this.bTeachers.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bTeachers.Location = new System.Drawing.Point(3, 75);
+            this.bTeachers.Name = "bTeachers";
+            this.bTeachers.Size = new System.Drawing.Size(210, 30);
+            this.bTeachers.TabIndex = 2;
+            this.bTeachers.Text = "Викладачі";
+            this.bTeachers.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // bArticles
             // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(3, 39);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 30);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Статті";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bArticles.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bArticles.Location = new System.Drawing.Point(3, 39);
+            this.bArticles.Name = "bArticles";
+            this.bArticles.Size = new System.Drawing.Size(210, 30);
+            this.bArticles.TabIndex = 1;
+            this.bArticles.Text = "Статті";
+            this.bArticles.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // bMain
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(210, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Головна сторінка";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bMain.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bMain.Location = new System.Drawing.Point(3, 3);
+            this.bMain.Name = "bMain";
+            this.bMain.Size = new System.Drawing.Size(210, 30);
+            this.bMain.TabIndex = 0;
+            this.bMain.Text = "Головна сторінка";
+            this.bMain.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.webBrowser1);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.bSearch);
+            this.panel2.Controls.Add(this.tbSearch);
             this.panel2.Location = new System.Drawing.Point(219, 1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(676, 605);
@@ -122,22 +122,22 @@
             this.webBrowser1.Size = new System.Drawing.Size(670, 566);
             this.webBrowser1.TabIndex = 2;
             // 
-            // button6
+            // bSearch
             // 
-            this.button6.Location = new System.Drawing.Point(598, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Пошук";
-            this.button6.UseVisualStyleBackColor = true;
+            this.bSearch.Location = new System.Drawing.Point(598, 3);
+            this.bSearch.Name = "bSearch";
+            this.bSearch.Size = new System.Drawing.Size(75, 23);
+            this.bSearch.TabIndex = 1;
+            this.bSearch.Text = "Пошук";
+            this.bSearch.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tbSearch
             // 
-            this.textBox1.Location = new System.Drawing.Point(2, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(590, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Введіть пошуковий запит";
+            this.tbSearch.Location = new System.Drawing.Point(2, 3);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(590, 20);
+            this.tbSearch.TabIndex = 0;
+            this.tbSearch.Text = "Введіть пошуковий запит";
             // 
             // Form1
             // 
@@ -159,15 +159,15 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bMain;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button bStudents;
+        private System.Windows.Forms.Button bTeachers;
+        private System.Windows.Forms.Button bArticles;
+        private System.Windows.Forms.Button bAdmin;
         private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button bSearch;
+        private System.Windows.Forms.TextBox tbSearch;
     }
 }
 
